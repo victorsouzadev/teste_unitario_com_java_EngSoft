@@ -1,0 +1,12 @@
+Possíveis Cenários para teste de fatorial.
+• Deve da errado quando o número a se fazer o fatorial for diferente de inteiro.
+• O fatorial de um deve dá o valor correspondente
+• Colocar um cenário certo mais que o resultado possa da errado
+• Colocar um cenário certo que o resultado possa da certo
+• O fatorial de um determinado número deve ir decrementando 1 a cada multiplicação até o valor 1 e deve dá certo.
+• O fatorial de um determinado número deve ir decrementando 1 a cada multiplicação até o valor 1 e deve dá errado
+• Deve ir incrementando de 1 em 1 e dá o valor certo
+• Deve ir incrementando de 1 em 1 e dá valor errado
+• Pode ir incrementando mais não sabe onde parar (como um look) tanto fazendo o fatorial de cima com pra baixo, ex: 3x2x1 ou 1x2x3
+• Deve ir até o 1 e dá certo. (Ou seja, no fatorial não precisa ir até o 1 porque será o mesmo resultado, mais é um cenário.
+• Deve ir até o 2 e dá certo.
