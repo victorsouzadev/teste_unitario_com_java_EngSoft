@@ -5,16 +5,13 @@
  */
 package br.unifesspa.faceel.fatorial;
 
-
 public class Programa {
 
-    public static void main(String[] args) {
-        Fatorial fatorial = new Fatorial();
-        
-        
-                
-        System.out.println("\nFatorial");
-        System.out.println("Fatorial não recursivo: "+fatorial.calculoNaoRecursivo(5));
-        System.out.println("Fatorial recursivo: "+fatorial.calculoRecursivo(5));
-    }
+	public static void main(String[] args) {
+		Fatorial fatorial = new Fatorial();
+
+		System.out.println("\nFatorial");
+		System.out.println("Fatorial não recursivo: " + fatorial.calculoNaoRecursivo(5));
+		System.out.println("Fatorial recursivo: " + fatorial.calculoRecursivo(5));
+	}
 }

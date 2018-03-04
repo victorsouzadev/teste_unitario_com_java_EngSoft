@@ -23,7 +23,7 @@ public class Fatorial {
 			throw new RuntimeException();
 		}
 		
-		if (parametro == 1) {
+		if (parametro == 1 || parametro == 0) {
 			return 1;
 		} else {
 
