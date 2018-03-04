@@ -11,3 +11,9 @@ Critérios de avaliação:
 3. Execução dos testes unitários (1 Coin)
 
 Essa atividades tem Piranha Plant e Bomb(30).
+
+Componentes do projeto:
+	CLEBER SOARES MARTINS JUNIOR
+	HANANE MACHADO PEREIRA
+	VICTOR FERREIRA SOUZA
+	
