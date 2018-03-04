@@ -5,7 +5,11 @@ package br.unifesspa.faceel.fatorial;
 public class Fatorial {
 
 	public int calculoNaoRecursivo(int parametro) {
-
+		
+		if(parametro < 0) {
+			throw new RuntimeException();
+		}
+		
 		int total = 1;
 		for (int i = 1; i < parametro + 1; i++) {
 			total *= i;
@@ -15,7 +19,11 @@ public class Fatorial {
 	}
 
 	public int calculoRecursivo(int parametro) {
-		if (parametro <= 1) {
+		if(parametro < 0) {
+			throw new RuntimeException();
+		}
+		
+		if (parametro == 1) {
 			return 1;
 		} else {
 
