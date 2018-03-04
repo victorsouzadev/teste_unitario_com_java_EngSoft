@@ -1,10 +1,11 @@
 package br.unifesspa.faceel.fatorial_test;
 
+
 import org.junit.Assert;
 import org.junit.Test;
 import br.unifesspa.faceel.fatorial.Fatorial;
 
-public class fatorialTest {
+public class fatorialTest{
 
 	@Test
 	public void TestNumeroIgualZero() {
@@ -27,7 +28,11 @@ public class fatorialTest {
 	@Test
 	public void TestNumeroInteiro() {
 		Fatorial fat = new Fatorial();
-		Assert.assertEquals(Integer.class, fat.calculoNaoRecursivo(5));
+		boolean tipoInteiro=false;
+		if ((fat.calculoNaoRecursivo(5) % 1) == 0) {
+			tipoInteiro = true;
+		}
+		Assert.assertEquals(true,tipoInteiro);
 	}
 	
 }
