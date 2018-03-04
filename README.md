@@ -12,7 +12,7 @@ Critérios de avaliação:
 
 Essa atividades tem Piranha Plant e Bomb(30).
 
-Componentes do projeto:
+icentes:
 CLEBER SOARES MARTINS JUNIOR
 HANANE MACHADO PEREIRA
 VICTOR FERREIRA SOUZA
